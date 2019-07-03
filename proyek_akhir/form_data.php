@@ -29,7 +29,7 @@
 <!-- Div untuk menampung isi website -->
 <div class="menu2">
 	<br><br>
-	<h2><font color="black">HALAMAN UNTUK</font> <font color="#6495ED"><b>FORM DATA PEMBELIAN</b></font></h2>
+	<h2><font color="black">HALAMAN UNTUK</font> <font color="#6495ED"><b>FORM DATA INPUTAN</b></font></h2>
 	<div class="alu"></div>
 	<div class="alu1"></div>
 	<p>Pada halaman form data ini user bisa melakukan pemesanan barang sesuai dengan form yang telah disediakan</p>
