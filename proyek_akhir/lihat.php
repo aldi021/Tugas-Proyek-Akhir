@@ -8,7 +8,7 @@
 	<!-- Style Css -->
 	<link rel="stylesheet" type="text/css" href="css/stylelihat.css">
 	<!-- Style Javascript -->
-	<script language="javascript" src="js/validasi.js"></script>
+	<script language="javascript" src="js/valid.js"></script>
 </head>
 <body>
 <!-- Div untuk membuat header dalam web -->
@@ -20,19 +20,19 @@
 		<ul>
 			<li><a href="index.html"><b>Biodata</b></a></li>
       <li><a href="materi.html"><b>Materi Kuliah</a></b></li>
-      <li><a href="cari.html"><b>Pencarian</b></a></li>
       <li><a href="validasi.php"><b>Validasi Data</b></a></li>
-      <li><a href="form_data.php"><b>Form Data Beli</b></a></li>
+      <li><a href="form_data.php"><b>Form</b></a></li>
+      <li><a href="komen.html"><b>Komentar User</b></a></li>
 		</ul>
 </div>	
 
 <!-- Div untuk menampung isi website -->
 <div class="menu2">
 	<br><br>
-	<h2><font color="black">HALAMAN UNTUK</font> <font color="#6495ED"><b>FORM DATA PEMBELIAN</b></font></h2>
+	<h2><font color="black">HALAMAN UNTUK</font> <font color="#6495ED"><b>FORM DATA SURVEY PENDUDUK</b></font></h2>
 	<div class="alu"></div>
 	<div class="alu1"></div>
-	<p>Pada halaman form data ini user bisa melakukan pemesanan barang sesuai dengan form yang telah disediakan</p>
+	<p>Pada halaman form data ini user bisa melihat data survey penduduk</p>
 	<hr width="90%">
             <center>
               <!-- Tabel yang digunakan untuk menampilkan data -->
@@ -61,7 +61,7 @@
 
                   //variabel $pisah berisi fungsi explode yang berfungsi sebagai pemisah string. dimana pada bagian ini kita melakukan pemisahan data satu dengan yang lain dengan menggunakan "|" oleh sebab itu paramater pertamanya adalah "|". dan paratemer keduanya adalah variavel $isi
                   $pisah = explode("|",$isi);
-                  echo "<tr><td><center>".$no++."</center></td>"; //variabel $no akan bertambah 1 terus jika data berulang
+                  echo "<tr><td><center>".$no++.".</center></td>"; //variabel $no akan bertambah 1 terus jika data berulang
                   echo "<td><center>$pisah[0]</center></td>";     //menampilkan data dalam index 0 di variabel $pisah
                   echo "<td><center>$pisah[1]</center></td>";     //menampilkan data dalam index 1 di variabel $pisah
                   echo "<td><center>$pisah[2]</center></td>";     //menampilkan data dalam index 2 di variabel $pisah

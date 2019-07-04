@@ -20,19 +20,19 @@
 		<ul>
 			<li><a href="index.html"><b>Biodata</b></a></li>
 			<li><a href="materi.html"><b>Materi Kuliah</a></b></li>
-			<li><a href="cari.html"><b>Pencarian</b></a></li>
 			<li><a href="validasi.php"><b>Validasi Data</b></a></li>
-			<li><a href="form_data.php"><b>Form Data Beli</b></a></li>
+			<li><a href="form_data.php"><b>Form</b></a></li>
+			<li><a href="komen.html"><b>Komentar User</b></a></li>
 		</ul>
 </div>	
 
 <!-- Div untuk menampung isi website -->
 <div class="menu2">
 	<br><br>
-	<h2><font color="black">HALAMAN UNTUK</font> <font color="#6495ED"><b>FORM DATA INPUTAN</b></font></h2>
+	<h2><font color="black">HALAMAN UNTUK</font> <font color="#6495ED"><b>FORM DATA SURVEY PENDUDUK</b></font></h2>
 	<div class="alu"></div>
 	<div class="alu1"></div>
-	<p>Pada halaman form data ini user bisa melakukan pemesanan barang sesuai dengan form yang telah disediakan</p>
+	<p>Pada halaman form data ini user bisa melakukan input data penduduk sesuai dengan form yang telah disediakan</p>
 	<hr width="90%">
 	<!-- form yang digunakan sebagai inputan untuk nantinya akan di proses dalam php. pada bagian name di masing-masing input form usahakan untuk diingat. karena nantinya akan digunakan sebagai POST data untuk di PHP  -->
 

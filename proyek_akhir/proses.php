@@ -8,7 +8,7 @@
 	<!-- Style Css -->
 	<link rel="stylesheet" type="text/css" href="css/styleform.css">
 	<!-- Style Javascript -->
-	<script language="javascript" src="js/validasi.js"></script>
+	<script language="javascript" src="js/valid.js"></script>
 </head>
 <body>
 <!-- Div untuk membuat header dalam web -->
@@ -20,8 +20,9 @@
 		<ul>
 			<li><a href="index.html"><b>Biodata</b></a></li>
 			<li><a href="materi.html"><b>Materi Kuliah</a></b></li>
-			<li><a href="cari.html"><b>Pencarian</b></a></li>
-			<li><a href="validasi.php"><b>Validasi Data</b></a></li><br>
+			<li><a href="validasi.php"><b>Validasi Data</b></a></li>
+			<li><a href="form_data.php"><b>Form</b></a></li>
+			<li><a href="komen.html"><b>Komentar User</b></a></li>
 		</ul>
 </div>	
 
